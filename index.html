@@ -23,82 +23,93 @@
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.05); }
     }
+
+    /* Mobile optimization for sticky CTA */
+    @media (max-width: 640px) {
+      .sticky-cta {
+        bottom: 12px;
+        right: 12px;
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+    }
   </style>
 </head>
 <body class="font-sans text-gray-800 bg-white">
 
   <!-- Hero Section -->
-  <section class="text-center py-16 px-4 bg-gradient-to-b from-blue-50 to-white">
-    <h1 class="text-4xl font-bold text-blue-700 mb-4">30 Days Free Improvement Program</h1>
-    <p class="text-lg text-gray-700 mb-1">For Classes 4th to 8th (CBSE)</p>
+  <section class="text-center py-12 sm:py-16 px-3 sm:px-4 bg-gradient-to-b from-blue-50 to-white">
+    <h1 class="text-3xl sm:text-4xl font-bold text-blue-700 mb-4">30 Days Free Improvement Program</h1>
+    <p class="text-base sm:text-lg text-gray-700 mb-1">For Classes 4th to 8th (CBSE)</p>
     <p class="text-gray-600 mb-6">Location: Kayesthtola, Saharsa</p>
-    <a href="tel:9693815719" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">📞 Call Now: 9693815719</a>
+    <a href="tel:9693815719" class="bg-blue-600 text-white px-5 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-blue-700 transition text-sm sm:text-base">📞 Call Now: 9693815719</a>
   </section>
 
   <!-- Program Highlights -->
-  <section class="py-16 bg-gray-50">
-    <div class="max-w-5xl mx-auto text-center px-4">
-      <h2 class="text-3xl font-bold text-blue-700 mb-10">Program Highlights</h2>
+  <section class="py-12 sm:py-16 bg-gray-50">
+    <div class="max-w-5xl mx-auto text-center px-3 sm:px-4">
+      <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-10">Program Highlights</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <div class="bg-white shadow-lg rounded-2xl p-6">
           <div class="text-4xl mb-3">📘</div>
-          <h3 class="text-xl font-semibold mb-2">Personalized Learning</h3>
-          <p class="text-gray-600">Focused guidance for every subject based on each student’s understanding level.</p>
+          <h3 class="text-lg sm:text-xl font-semibold mb-2">Personalized Learning</h3>
+          <p class="text-gray-600 text-sm sm:text-base">Focused guidance for every subject based on each student’s understanding level.</p>
         </div>
         <div class="bg-white shadow-lg rounded-2xl p-6">
           <div class="text-4xl mb-3">💻</div>
-          <h3 class="text-xl font-semibold mb-2">Computer Classes</h3>
-          <p class="text-gray-600">Early exposure to essential digital skills and practical learning.</p>
+          <h3 class="text-lg sm:text-xl font-semibold mb-2">Computer Classes</h3>
+          <p class="text-gray-600 text-sm sm:text-base">Early exposure to essential digital skills and practical learning.</p>
         </div>
         <div class="bg-white shadow-lg rounded-2xl p-6">
           <div class="text-4xl mb-3">🗣️</div>
-          <h3 class="text-xl font-semibold mb-2">English Spoken Classes</h3>
-          <p class="text-gray-600">Improve communication and confidence in speaking English.</p>
+          <h3 class="text-lg sm:text-xl font-semibold mb-2">English Spoken Classes</h3>
+          <p class="text-gray-600 text-sm sm:text-base">Improve communication and confidence in speaking English.</p>
         </div>
       </div>
       <div class="mt-10">
-        <a href="tel:9693815719" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">📞 Call Now to Enroll Free</a>
+        <a href="tel:9693815719" class="bg-blue-600 text-white px-5 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-blue-700 transition text-sm sm:text-base">📞 Call Now to Enroll Free</a>
       </div>
     </div>
   </section>
 
   <!-- Know Your Teacher -->
-  <section class="py-16 bg-white">
-    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
+  <section class="py-12 sm:py-16 bg-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center px-3 sm:px-4">
       <div class="flex justify-center">
-        <img src="Gemini_Generated_Image_uk632uk632uk632u.png" alt="Teacher" class="rounded-full shadow-xl w-64 h-64 object-cover" />
+        <img src="Gemini_Generated_Image_uk632uk632uk632u.png" alt="Teacher Vishesh Chokhani" class="rounded-full shadow-xl w-48 sm:w-64 h-48 sm:h-64 object-cover" />
       </div>
       <div>
-        <h2 class="text-3xl font-bold text-blue-700 mb-4">Know Your Teacher</h2>
-        <ul class="text-lg text-gray-700 space-y-2 mb-4">
+        <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-4">Know Your Teacher</h2>
+        <h3 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">Vishesh Chokhani</h3>
+        <ul class="text-base sm:text-lg text-gray-700 space-y-2 mb-4">
           <li>📊 92.6% in 10th CBSE Boards</li>
           <li>🧮 93% in 12th CBSE Boards</li>
           <li>🎯 5+ Years of Teaching Experience</li>
         </ul>
-        <blockquote class="italic text-gray-600 border-l-4 border-blue-600 pl-4">
+        <blockquote class="italic text-gray-600 border-l-4 border-blue-600 pl-4 text-sm sm:text-base">
           “Every child can improve — they just need the right guidance.”
         </blockquote>
         <div class="mt-6">
-          <a href="tel:9693815719" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">📞 Call Now</a>
+          <a href="tel:9693815719" class="bg-blue-600 text-white px-5 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-blue-700 transition text-sm sm:text-base">📞 Call Now</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Parent Trust Section -->
-  <section class="py-16 bg-gray-50">
-    <div class="max-w-4xl mx-auto text-center px-4">
-      <h2 class="text-3xl font-bold text-blue-700 mb-6">Trusted by Parents in Saharsa</h2>
-      <p class="text-gray-700 mb-6">Hundreds of parents trust Toppers Academy for their child’s academic and personal growth. Small batch sizes, personal focus, and result-oriented teaching methods make all the difference.</p>
-      <a href="tel:9693815719" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">📞 Call Now to Join Free 30 Days Program</a>
+  <section class="py-12 sm:py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center px-3 sm:px-4">
+      <h2 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-6">Trusted by Parents in Saharsa</h2>
+      <p class="text-gray-700 mb-6 text-sm sm:text-base">Hundreds of parents trust Toppers Academy for their child’s academic and personal growth. Small batch sizes, personal focus, and result-oriented teaching methods make all the difference.</p>
+      <a href="tel:9693815719" class="bg-blue-600 text-white px-5 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-blue-700 transition text-sm sm:text-base">📞 Call Now to Join Free 30 Days Program</a>
     </div>
   </section>
 
   <!-- Final CTA -->
-  <footer class="bg-blue-700 text-white text-center py-10">
-    <h2 class="text-2xl font-bold mb-2">Admissions Open for Limited Time!</h2>
-    <p class="mb-4 text-lg">Join the 30 Days Free Improvement Program Today!</p>
-    <a href="tel:9693815719" class="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">📞 Call Now: 9693815719</a>
+  <footer class="bg-blue-700 text-white text-center py-10 px-4">
+    <h2 class="text-xl sm:text-2xl font-bold mb-2">Admissions Open for Limited Time!</h2>
+    <p class="mb-4 text-base sm:text-lg">Join the 30 Days Free Improvement Program Today!</p>
+    <a href="tel:9693815719" class="bg-white text-blue-700 px-5 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-gray-100 transition text-sm sm:text-base">📞 Call Now: 9693815719</a>
   </footer>
 
   <!-- Sticky CTA Button -->
@@ -106,4 +117,3 @@
 
 </body>
 </html>
-
